@@ -58,3 +58,21 @@ body {
     transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
 }
 
+.clock .hand.second {
+    width: 3px;
+    height: 45%;
+    background-color: #a52a2a;
+}
+
+.clock .hand.minute {
+    width: 7px;
+    height: 40%;
+    background-color: rgb(48, 7, 87);
+}
+
+.clock .hand.hour {
+    width: 10px;
+    height: 35%;
+    background-color: rgb(48, 7, 87);
+}
+
